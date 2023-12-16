@@ -10,18 +10,26 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 20px;
+    padding: 55px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+    padding-bottom: 20px;
     text-align: center;
 }
 
 ul {
+    font-size: 22px;
     list-style: none;
-    padding: 0;
+    padding: 0px;
+}
+
+input{
+    width: 200px;
+    padding: 8px;
+    border-radius: 7px;
 }
 
 li {
@@ -42,11 +50,13 @@ button{
     border: none;
     font-size: 13px;
     cursor: pointer;
-    border-radius: 5px;
-    padding: 3px;
+    border-radius: 3px;
+    padding: 7px;
+    width: 100px;
 }
 
 .clear{
+    padding-top: 30px;
     text-align: center;
 }
 

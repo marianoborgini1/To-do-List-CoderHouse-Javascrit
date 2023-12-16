@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
-    <title>To-Do List</title>
+    <title>Lista de Tareas</title>
 </head>
 <body>
     <div class="container">
-        <h1>To-Do List</h1>
-        <div class="clear">
-            <button onclick="clearTasks()" id="clear">Clear All Tasks</button>
-        </div>
+        <h1>Lista de Tareas</h1>
         <ul id="taskList"></ul>
         <input type="text" id="newTask" placeholder="Add a new task">
-        <button onclick="addTask()">Add Task</button>
+        <button onclick="addTask()">Agregar</button>
+        <div class="clear">
+            <button onclick="clearTasks()" id="clear">Borrar Todo</button>
+        </div>
     </div>
+    
     
 </body>
 </html>

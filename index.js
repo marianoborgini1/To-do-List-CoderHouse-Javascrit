@@ -53,7 +53,7 @@ function addTask() {
       const listItem = document.createElement("li");
       listItem.innerHTML = `
           <span>${newTask.description}</span>
-          <button onclick="toggleTask(${newTask.id})">Toggle</button>
+          <button onclick="toggleTask(${newTask.id})">Completado</button>
       `;
 
       taskList.appendChild(listItem);
